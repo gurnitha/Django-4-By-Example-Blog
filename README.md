@@ -299,4 +299,7 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         modified:   blog/views.py
 
 
+#### 07.2 Creating post_detail views
 
+        modified:   README.md
+        modified:   blog/views.py
