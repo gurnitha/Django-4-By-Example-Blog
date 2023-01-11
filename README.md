@@ -163,3 +163,24 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         modified:   README.md
         new file:   blog/migrations/0001_initial.py
         modified:   blog/models.py
+
+
+
+## 05. Creating an administration site for models
+
+
+#### 05.1 Creating a superuser
+
+        > python manage.py migrate
+        Blog> python manage.py createsuperuser
+        Username (leave blank to use 'hp'): admin
+        Email address: admin@admin.com
+        Password: admin
+        Password (again): admin
+        The password is too similar to the username.
+        This password is too short. It must contain at least 8 characters.
+        This password is too common.
+        Bypass password validation and create user anyway? [y/N]: y
+        Superuser created successfully.
+
+        modified:   README.md
