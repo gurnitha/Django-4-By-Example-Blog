@@ -434,3 +434,13 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         1. Add this to slug field in models.py: 
            unique_for_date='publish')
         2. Run and apply migrations
+
+
+#### 01.3 Modifying the URL patterns   
+
+        modified:   README.md
+        modified:   blog/urls.py
+
+        Activities:
+
+        1. Mofify the post detail url
