@@ -84,3 +84,18 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
           Applying sessions.0001_initial... OK
 
         modified:   README.md
+
+
+#### 02.3 Running the development serve
+
+          Blog> python manage.py runserver
+          Watching for file changes with StatReloader
+          Performing system checks...
+
+          System check identified no issues (0 silenced).
+          January 11, 2023 - 08:31:56
+          Django version 4.1.5, using settings 'mysite.settings'
+          Starting development server at http://127.0.0.1:8000/
+          Quit the server with CTRL-BREAK.
+
+        modified:   README.md
