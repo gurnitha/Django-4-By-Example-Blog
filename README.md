@@ -303,3 +303,13 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   blog/views.py
+
+
+
+## 08. Creating URL patterns for the views
+
+
+#### 08.1 Creating path for Blog post_list and post_detail
+
+        modified:   README.md
+        new file:   blog/urls.py
