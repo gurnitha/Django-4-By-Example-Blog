@@ -3,6 +3,9 @@ This is my exercise based on Django 4 By Example
 Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
 
+# Chapter 1: Building a Blog Application
+
+
 ## 01. Preparations
 
 #### 01.1 Create Github repository
@@ -393,5 +396,21 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         8. Views
         9. Templates
         10. Loading static files
-        
+
         modified:   README.md
+
+
+
+# Chapter 2: Enhancing the Blog with Advance Features
+
+
+## 01. Cannonical URLs and SEO Friendly URLs
+
+
+#### 01.1 Using Cannonical URLs for models and back link
+
+        modified:   README.md
+        modified:   blog/models.py
+        modified:   blog/templates/blog/post/detail.html
+        modified:   blog/templates/blog/post/list.html
+
