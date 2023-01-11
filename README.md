@@ -414,3 +414,23 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         modified:   blog/templates/blog/post/detail.html
         modified:   blog/templates/blog/post/list.html
 
+        Activities:
+
+        1. In models.py import this: from django.urls import reverse
+        2. In models.py define this:
+        def get_absolute_url(self):
+                return reverse('blog:post_detail',args=[self.id])
+        3. Add back link to detail page
+
+
+#### 01.2 Creating SEO-friendly URLs for posts
+
+        modified:   README.md
+        new file:   blog/migrations/0002_alter_post_slug.py
+        modified:   blog/models.py
+
+        Activities:
+
+        1. Add this to slug field in models.py: 
+           unique_for_date='publish')
+        2. Run and apply migrations

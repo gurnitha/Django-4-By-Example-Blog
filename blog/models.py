@@ -30,7 +30,8 @@ class Post(models.Model):
 
 	# Table fields 
 	title = models.CharField(max_length=250)    
-	slug = models.SlugField(max_length=250)
+	slug = models.SlugField(max_length=250,
+		unique_for_date='publish')
 	# Adding a many-to-one relationship
 	author = models.ForeignKey(User,                               
 		on_delete=models.CASCADE,                               
