@@ -27,3 +27,16 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         Enter passphrase for key '/c/Users/hp/.ssh/id_rsa':
 
         modified:   README.md
+
+
+#### 01.3 Installing Django
+
+        > .\venv3941\Scripts\activate
+        (venv3941) .../Blog>
+        > pip install Django~=4.1.0
+        > python -m django --version
+          4.1.5
+        > git add .
+        > git status
+        modified:   README.md
+        > git commit -m "01.3 Installing Django"
