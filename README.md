@@ -40,3 +40,19 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         > git status
         modified:   README.md
         > git commit -m "01.3 Installing Django"
+
+
+
+## 02. Creating Django Project
+
+#### 02.1 Creating your first project
+
+        > django-admin startproject mysite .
+        
+        modified:   README.md
+        new file:   manage.py
+        new file:   mysite/__init__.py
+        new file:   mysite/asgi.py
+        new file:   mysite/settings.py
+        new file:   mysite/urls.py
+        new file:   mysite/wsgi.py
