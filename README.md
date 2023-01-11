@@ -571,4 +571,17 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         NEXT: Return to Function-Based Views
 
 
+##### 03.2 Return to Function-Based Views
+
+        modified:   README.md
+        modified:   blog/urls.py
+        modified:   blog/views.py
+
+        Activities:
+
+        1. Marked the: class PostListView
+        2. Un-marked the: def post_list
+        3. Marked and un-marked the related urls path
+
+        Result: :)
 
