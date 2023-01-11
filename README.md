@@ -10,8 +10,18 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         modified:   .gitignore
         modified:   README.md
 
-		Activities:
+        Activities:
 
-		1. Modified .gitignore file
-		2. Modified Readme file
-		3. Git commit and pushed it to Github
+        1. Modified .gitignore file
+        2. Modified Readme file
+        3. Git commit and pushed it to Github
+
+
+#### 01.2 Creating a Python virtual environment
+
+        > python --version
+        > pip --version
+        > virtualenv --version
+        > python -m venv venv3941
+
+        modified:   README.md
