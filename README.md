@@ -313,3 +313,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         new file:   blog/urls.py
+
+
+#### 08.2 Including Blog URL patterts in the main URL patterns
+
+        modified:   README.md
+        modified:   mysite/urls.py
