@@ -23,5 +23,7 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         > pip --version
         > virtualenv --version
         > python -m venv venv3941
+        git push origin
+        Enter passphrase for key '/c/Users/hp/.ssh/id_rsa':
 
         modified:   README.md
