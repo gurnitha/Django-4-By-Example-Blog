@@ -462,3 +462,24 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
                                         publish__year=year,
                                         publish__month=month,
                                         publish__day=day) 
+
+
+
+#### 01.5 Modifying the canonical URL for posts   
+
+        modified:   README.md
+        modified:   blog/models.py
+
+        Activities:
+
+        1. Modified get_absolute_url in Post model to this:
+
+        def get_absolute_url(self):
+                return reverse('blog:post_detail',
+                        args=[self.publish.year,
+                                  self.publish.month,
+                                  self.publish.day,
+                                  self.slug])
+        2. Testing: re-run the server
+        3. Result: the end-poin in the browser:
+           http://127.0.0.1:8000/blog/2023/1/11/who-is-mr-antonio-mele/
