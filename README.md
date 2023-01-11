@@ -334,3 +334,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         new file:   templates/blog/post/list.html
+
+
+#### 09.3 Creating the post detail template
+
+        modified:   README.md
+        new file:   templates/blog/post/detail.html
