@@ -444,3 +444,21 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         Activities:
 
         1. Mofify the post detail url
+
+
+#### 01.4 Modifying the post_detail views   
+
+        modified:   README.md
+        modified:   blog/views.py
+
+        Activities:
+
+        1. Modified post_detail view with this:
+
+        def post_detail(request, year, month, day, post):
+                post = get_object_or_404(Post,
+                                        status=Post.Status.PUBLISHED,
+                                        slug=post,
+                                        publish__year=year,
+                                        publish__month=month,
+                                        publish__day=day) 
