@@ -288,3 +288,15 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         2. Tesing: using the python shell to test it
         3. Result: as seen above
 
+
+
+## 07. Building List and Detail Views
+
+
+#### 07.1 Creating post_list views
+
+        modified:   README.md
+        modified:   blog/views.py
+
+
+
