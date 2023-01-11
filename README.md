@@ -205,3 +205,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   blog/admin.py
+
+
+#### 05.4 Customizing the models displayed
+
+        modified:   README.md
+        modified:   blog/admin.py
