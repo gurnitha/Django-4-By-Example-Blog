@@ -106,3 +106,22 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
 #### 03.1 Creating an application
 
+        > python manage.py startapp blog
+
+        modified:   README.md
+        new file:   blog/__init__.py
+        new file:   blog/admin.py
+        new file:   blog/apps.py
+        new file:   blog/migrations/__init__.py
+        new file:   blog/models.py
+        new file:   blog/tests.py
+        new file:   blog/views.py
+
+
+
+## 04. Django Models: Creating the blog data models
+
+#### 04.1 Creating the Post model
+
+        modified:   README.md
+        modified:   blog/models.py
