@@ -211,3 +211,59 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   blog/admin.py
+
+
+
+## 06. Working with QuerySets and managers
+
+
+#### 06.1 Working with QuerySets
+
+        Creating objects
+
+        > python manage.py shell
+
+        >>>from django.contrib.auth.models import User
+        >>>from blog.models import Post
+        >>> user = User.objects.get(username='admin')
+        >>> post = Post(title='Another post',
+        	...             slug='another-post',
+        	...             body='Post body.',
+        	...             author=user)
+        >>> post.save()
+
+        Updating objects
+
+        >>> post.title = 'New title'>>> post.save()
+
+        Retrieving objects
+
+        >>> all_posts = Post.objects.all()
+
+        >>> Post.objects.all()
+        <QuerySet [<Post: Who was Django Reinhardt?>, <Post: New title>]>
+
+        Using the filter() method
+
+        >>> Post.objects.filter(publish__year=2022)
+
+        >>> Post.objects.filter(publish__year=2022, author__username='admin')
+        >>> Post.objects.filter(publish__year=2022) \
+        >>>             .filter(author__username='admin'
+
+        Using exclude()
+
+        >>> Post.objects.filter(publish__year=2022) \
+        >>>             .exclude(title__startswith='Why')
+
+        Using order_by()
+
+        >>> Post.objects.order_by('title')
+        >>> Post.objects.order_by('-title')
+
+        Deleting objects
+
+        >>> post = Post.objects.get(id=1)
+        >>> post.delete()
+
+        modified:   README.md
