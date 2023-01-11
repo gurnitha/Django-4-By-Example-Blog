@@ -319,3 +319,12 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   mysite/urls.py
+
+
+## 09. Creating Templates for the Views
+
+
+#### 09.1 Creating a base template
+
+        modified:   README.md
+        new file:   templates/blog/base.html
