@@ -125,3 +125,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   blog/models.py
+
+
+#### 04.2 Activating the blog application
+
+        modified:   README.md
+        modified:   mysite/settings.py
