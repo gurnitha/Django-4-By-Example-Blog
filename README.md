@@ -540,4 +540,35 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         modified:   blog/views.py
-        
+
+
+
+## 03. Building class-based views   
+
+
+##### 03.1 Using a class-based view to list posts
+
+        modified:   README.md
+        modified:   blog/templates/blog/post/list.html
+        modified:   blog/urls.py
+        modified:   blog/views.py
+
+        NOTE: 
+
+        1. It has similar error as the previous one.
+        2. This solution could not handle if the request
+           is not integer parameter, like this:
+           http://127.0.0.1:8000/blog/?page=not-integer
+           and parameter like this:
+           http://127.0.0.1:8000/blog/?page=4
+
+           Error shows:
+
+           Page not found (404)
+           Page is not “last”, nor can it be converted to an int.
+        3. Remember, this is just an alternative
+
+        NEXT: Return to Function-Based Views
+
+
+
