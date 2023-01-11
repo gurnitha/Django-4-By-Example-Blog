@@ -500,3 +500,38 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         modified:   README.md
         modified:   blog/templates/blog/post/list.html
         new file:   blog/templates/pagination.html
+
+
+#### 02.3 Handling pagination errors - with integer parameter request
+
+        Situation:
+
+        1. Total posts in db: 7
+        2. Posts per page: 3
+        3. Max pages: 3
+           http://127.0.0.1:8000/blog/?page=3
+        4. > than max pages: 4
+           http://127.0.0.1:8000/blog/?page=4
+
+           Result: 
+
+           EmptyPage at /blog/
+           That page contains no results
+
+        NEXT: Handling the EmptyPage error
+
+        modified:   README.md
+        modified:   blog/views.py
+
+        NOTE:
+
+        1. This solution could not handle if the request
+           is not integer parameter, like this:
+           http://127.0.0.1:8000/blog/?page=not-integer
+
+           Error shows:
+
+           PageNotAnInteger at /blog/
+
+        NEXT: Handling non integer request parameter
+
