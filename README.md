@@ -488,7 +488,15 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
 ## 02. Adding pagination 
 
+
 #### 02.1 Adding pagination to the post list view  
 
         modified:   README.md
         modified:   blog/views.py
+
+
+#### 02.2 Creating a pagination template
+
+        modified:   README.md
+        modified:   blog/templates/blog/post/list.html
+        new file:   blog/templates/pagination.html
