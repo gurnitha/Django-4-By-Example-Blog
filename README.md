@@ -535,3 +535,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         NEXT: Handling non integer request parameter
 
+
+#### 02.4 Handling pagination errors - with NON integer parameter request
+
+        modified:   README.md
+        modified:   blog/views.py
+        
