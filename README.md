@@ -199,3 +199,9 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         Quit the server with CTRL-BREAK.
 
         modified:   README.md
+
+
+#### 05.3 Adding models to the administration site
+
+        modified:   README.md
+        modified:   blog/admin.py
