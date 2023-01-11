@@ -340,3 +340,17 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         new file:   templates/blog/post/detail.html
+
+
+#### 09.4 Moving templates to blog app
+
+        modified:   .gitignore
+        modified:   README.md
+        new file:   _docs
+        new file:   blog/templates/blog/base.html
+        new file:   blog/templates/blog/post/detail.html
+        new file:   blog/templates/blog/post/list.html
+        deleted:    templates/blog/base.html
+        deleted:    templates/blog/post/detail.html
+        deleted:    templates/blog/post/list.html
+

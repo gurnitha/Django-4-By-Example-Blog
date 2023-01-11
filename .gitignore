@@ -2,7 +2,7 @@
 venv3941
 docs
 .venv
-
+_docs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
