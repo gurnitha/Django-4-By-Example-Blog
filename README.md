@@ -376,3 +376,22 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
 
         modified:   README.md
         new file:   blog/static/css/blog.css
+
+
+## 11. End Chapter 01
+
+#### 11.1 Summary
+
+        Activities:
+
+        1. Learned basics of django framework
+        2. Creating django project
+        3. Creating django app
+        4. Creating model
+        5. Run and appply migrations
+        7. Urls patterns
+        8. Views
+        9. Templates
+        10. Loading static files
+        
+        modified:   README.md
