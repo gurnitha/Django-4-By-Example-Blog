@@ -99,3 +99,10 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
           Quit the server with CTRL-BREAK.
 
         modified:   README.md
+
+
+
+## 03. Creating Django Application
+
+#### 03.1 Creating an application
+
