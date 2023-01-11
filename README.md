@@ -354,3 +354,25 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         deleted:    templates/blog/post/detail.html
         deleted:    templates/blog/post/list.html
 
+
+
+## 10. Static Files
+
+
+#### 10.1 Adding static files
+
+        modified:   README.md
+        new file:   blog/static/css/blog.css
+
+        NOTE:
+
+        1. Loding static files has been done previously
+           in base.html
+        2. Re-run the server to load the static files
+        3. At this poin, path for the static files and
+           templates did not activate yet due to
+           we are working on local development.
+        4. Result: it works
+
+        modified:   README.md
+        new file:   blog/static/css/blog.css
