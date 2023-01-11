@@ -1,8 +1,8 @@
 # blog/models.py
 
 # Import django modules
-from django.shortcuts import render
 from django.shortcuts import render, get_object_or_404
+from django.core.paginator import Paginator
 
 # Import from locals
 from .models import Post
@@ -11,8 +11,12 @@ from .models import Post
 
 
 # VIEWS: post_list
-def post_list(request):
-	posts = Post.published.all()    
+def post_list(request):    
+	post_list = Post.published.all()
+	# Pagination with 3 posts per page
+	paginator = Paginator(post_list, 3)
+	page_number = request.GET.get('page', 1)    
+	posts = paginator.page(page_number)    
 	return render(request,'blog/post/list.html',{'posts': posts})
 
 

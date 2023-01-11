@@ -483,3 +483,12 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         2. Testing: re-run the server
         3. Result: the end-poin in the browser:
            http://127.0.0.1:8000/blog/2023/1/11/who-is-mr-antonio-mele/
+
+
+
+## 02. Adding pagination 
+
+#### 02.1 Adding pagination to the post list view  
+
+        modified:   README.md
+        modified:   blog/views.py
