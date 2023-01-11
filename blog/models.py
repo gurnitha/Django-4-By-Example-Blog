@@ -35,14 +35,14 @@ class Post(models.Model):
 	# Defining a default sort order
 	class Meta:        
 		ordering = ['-publish']
-    
-    # Adding a database index
-    class Meta:        
-    	ordering = ['-publish']        
-    	indexes = [            
-    		models.Index(fields=['-publish']),        
-    	]
 
-    # Adding string method 
+	# Adding a database index
+	class Meta:        
+		ordering = ['-publish']        
+		indexes = [            
+			models.Index(fields=['-publish']),        
+		]
+
+	# Adding string method 
 	def __str__(self):
 		return self.title
