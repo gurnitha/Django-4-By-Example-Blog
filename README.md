@@ -267,3 +267,24 @@ Github link: https://github.com/gurnitha/Django-4-By-Example-Blog
         >>> post.delete()
 
         modified:   README.md
+
+
+#### 06.2 Model managers - Creating custom manager for models
+
+        Blog> python manage.py shell
+        ...
+        >>> from blog.models import Post
+        >>> Post.published.filter(title__startswith='who')
+        <QuerySet [<Post: Who was Django Rainhard?>]>
+        >>>
+        modified:   README.md
+
+        modified:   README.md
+        modified:   blog/models.py
+
+        Activities:
+
+        1. Creating custom manager for Post model
+        2. Tesing: using the python shell to test it
+        3. Result: as seen above
+

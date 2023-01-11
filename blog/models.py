@@ -7,6 +7,19 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
+'''Create a custom manager to retrieve all posts 
+that have a PUBLISHED status.
+It will allow us to retrieve posts using the 
+notation Post.published.all().'''
+
+# MODEL: PublishedManager
+class PublishedManager(models.Manager):    
+	def get_queryset(self):
+		return super().get_queryset()\
+		.filter(status=Post.Status.PUBLISHED)
+
+
+# MODEL: Post
 class Post(models.Model):
 
 	# Defining Blog Status
@@ -31,6 +44,10 @@ class Post(models.Model):
 		max_length=2,                              
 		choices=Status.choices,                              
 		default=Status.DRAFT)
+
+	# Use the PublishedManager
+	objects = models.Manager() # The default manager.    
+	published = PublishedManager() # Our custom manager.
 
 	# Defining a default sort order
 	class Meta:        
